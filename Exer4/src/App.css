@@ -1,0 +1,58 @@
+body {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  color: #fff; /* Changed text color to white */
+  background-color: #000; /* Changed background color to black */
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 30px;
+  color: #e31c5f;
+}
+
+input {
+  margin: 8px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+  padding: 8px;
+}
+
+button {
+  margin-right: 10px;
+  margin-left: 4px;
+  padding: 14px 24px;
+  border: none;
+  transition: box-shadow 0.2s ease, -ms-transform 0.1s ease, -webkit-transform 0.1s ease, transform 0.1s ease;
+  background: linear-gradient(to right, rgb(230, 30, 77) 0%, #e31c5f 50%, rgb(215, 4, 102) 100%);
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  outline: none;
+}
+
+
+
+.tab {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.tab .active {
+  background-color: #7D5BA6;
+}
